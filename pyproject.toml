@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tiveltext"
-version = "1.0.0"
-description = "ASCII art, Unicode typography, decorative text, and terminal styling for Python."
+version = "1.1.0.dev0"
+description = "Stylized terminal text, ASCII art, Unicode typography, colors, backgrounds, and text effects for Python."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [{name = "Tivalsdeveloper"}]
-keywords = ["ascii", "unicode", "text", "typography", "terminal", "banner", "cli"]
+keywords = ["ascii", "unicode", "text", "typography", "terminal", "color", "gradient", "banner", "cli"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
