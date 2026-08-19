@@ -1,7 +1,15 @@
-"""TivelText 1.0.0: stylized text and ASCII art for Python."""
+"""TivelText: stylized terminal text, colors, backgrounds, and effects."""
 from .core import text, fonts
-from .colors import colorize, strip_ansi
+from .colors import (
+    color, colorize, color_list, color_dict, color_object,
+    rgb, hex, rainbow, gradient, strip_ansi, supports_color,
+)
+from .styles import TextStyle, style
 from .decorators import decorate, decorations
 
-__version__ = "1.0.0"
-__all__ = ["text", "fonts", "colorize", "strip_ansi", "decorate", "decorations"]
+__version__ = "1.1.0.dev0"
+__all__ = [
+    "text", "fonts", "color", "colorize", "color_list", "color_dict",
+    "color_object", "rgb", "hex", "rainbow", "gradient", "strip_ansi",
+    "supports_color", "TextStyle", "style", "decorate", "decorations",
+]
